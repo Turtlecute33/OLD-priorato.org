@@ -177,7 +177,7 @@ header .intro-text {
 	padding-bottom: 200px;
 }
 /* About Section */
-#about {
+#about{
     background-color: #2a2a2a;
 	padding: 120px 0;
 }
@@ -194,7 +194,28 @@ header .intro-text {
 #about p {
 	margin-top: 40px;
 	margin-bottom: 30px;
-	line-height: 22px;
+	line-height: 26px;
+    font-size: 20px;
+}
+#priorato{
+    background-color: #2a2a2a;
+	padding: 120px 0;
+}
+#priorato .about-text {
+	margin-left: 10px;
+	text-align: center;
+}
+#priorato img {
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	display: inline-block;
+}
+#priorato p {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	line-height: 26px;
+    font-size: 20px;
 }
 /* Portfolio Section */
 #portfolio {
@@ -422,4 +443,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer a:hover {
 	color: #000;
+}
+#barra {
+    color: #FFDBD0CA;
 }
