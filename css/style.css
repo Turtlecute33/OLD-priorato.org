@@ -2,20 +2,20 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: #FFDBD0CA;
 	width: 100% !important;
 	height: 100% !important;
 }
 h2 {
 	margin: 0 0 20px 0;
-	color: #555;
+	color: #FFDBD0CA;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 400;
 	font-size: 30px;
 }
 h3, h4 {
-	color: #222;
+	color: #FFDBD0CA;
 	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -31,7 +31,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #555;
+	color: #2a2a2a;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -91,10 +91,10 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #f6f6f6;
+	background-color: #505050;
 	border-radius: 0px;
 	padding: 10px 0;
-	border-bottom: 2px solid #fff;
+	border-bottom: 0px solid #fff;
 }
 .navbar-custom a {
 	color: #555;
@@ -178,6 +178,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
+    background-color: #2a2a2a;
 	padding: 120px 0;
 }
 #about .about-text {
@@ -198,7 +199,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
-	background: #f6f6f6;
+	background: #505050;
 }
 .categories {
 	padding-bottom: 30px;
