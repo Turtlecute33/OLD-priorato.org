@@ -33,6 +33,21 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script>
+	! function(c) {
+		var t = document.createElement("script");
+		t.type = "text/javascript", t.async = !0, t.onload = c, t.src = "CryptoDonateButton/src/widget.js";
+		var e = document.getElementsByTagName("script")[0];
+		e.parentNode.insertBefore(t, e)
+	}(function() {
+		Fr.loadCD("bitcoin", {
+			coin: "lightning",
+			address: "LNURL1DP68GURN8GHJ7MRW9E6XJURN9UH8WETVDSKKKMN0WAHZ7MRWW4EXCUP0X9URVEFC8YMRXDE5XPJKGDENV56RX7Q9TT6",
+			buttonClass: "large",
+			dialogClass: "large",
+		});
+	});
+</script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -49,6 +64,10 @@
                         <a href="  " class="btn btn-default btn-lg page-scroll"><img src="img/apple.svg"></a>
                         <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw" class="btn btn-default btn-lg page-scroll"><img src="img/google.svg"></a>
                         <a href="https://open.spotify.com/show/51jZKEaXaYKypCICVHkkZE" class="btn btn-default btn-lg page-scroll"><img src="img/spotify.svg"></a>
+                        <br>
+                        <br>
+                        
+                        <a id="bitcoin" class="page-scroll"></a>
 
                     </div>
                 </div>
@@ -89,7 +108,7 @@
                         <p>Uno pseudonimo che spiega chi é... Fa gia ridere cosi no? <br> Sono un ragazzo, sono un amante di bitcoin, della privacy, un nerd, uno "smanettone". Dopo anni di “Studio matto e disperatissimo” mi
                             sono convinto (anche grazie a tanti amici che ho conosciuto in questo lungo percorso) a divulgare, spiegare e raccontare le cose che ho imparato.<br> Una persona normalissima, nulla di speciale, se vi piace
                             ció che faccio valutate di farlo anche voi! </p>
-                        <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Progetti</a>
+                        <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Progetti</a>&nbsp;&nbsp;<a href="https://turtlecute.org" class="btn btn-default btn-lg page-scroll">Turtlecute.org</a>
                     </div>
                 </div>
             </div>
@@ -169,20 +188,11 @@
 
 
     <!-- Contact Section -->
-    <div id="contact" class="text-center">
-        <div class="social">
-            <ul>
-                <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-        </div>
-    </div>
+
     <div id="footer">
         <div class="container text-center">
             <div class="fnav">
-                <p>Copyright &copy; Magnum. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+                <p>&#9889; Designed by <a href="http://turtlecute.org" rel="nofollow">Turtlecute &#9889;</a></p>
             </div>
         </div>
     </div>
