@@ -217,6 +217,9 @@ header .intro-text {
 	line-height: 26px;
     font-size: 20px;
 }
+#jojo {
+color:green;
+}
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
