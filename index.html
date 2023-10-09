@@ -100,30 +100,6 @@
       </div>
     </nav>
   </div>
-
-<div id="feed" style="max-width: 50%;border:1px solid blue;padding:10px">
-</div>
-
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-<script>
-
-const url = 'https://anchor.fm/s/bd5d5b20/podcast/rss'
-
-$(() => {
-    $.get(url)
-    .done(xml => {
-        $.each($("item", xml), (num, item) => {
-            var link = $(item).find('link').text()
-              , title = $(item).find('title').text();
-
-            $(`<div class="item"><a href="${link}"> ${num}. ${title}</a></div>`).appendTo("#feed");
-        });
-    });
-});
-
-</script>
-
-	
     <div id="about">
       <div class="container">
         <div class="section-title text-center center">
